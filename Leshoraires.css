@@ -1,0 +1,16 @@
+body{
+   background-color:#CD6723;
+   color:white;
+ }
+ a{
+ color: #00AACC;
+ }
+ 
+ table
+{
+    border-collapse: collapse; 
+}
+td,th
+{
+    border: 1px solid black;
+}

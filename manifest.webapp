@@ -1,0 +1,13 @@
+{
+  "name": "HT2Evry",
+  "version":"1.0",
+  "descrption": "Application Horaires Trains Evry",
+  "launch_path": "/Accueil.html",
+  "icons": {
+          "1": "garevry.jpg"
+  },
+  "developer": {
+    "name": "AB2F",
+    "url": "http://reloadedcode.com"
+    }
+}

@@ -1,0 +1,27 @@
+body{
+   background-color:#CD6723;
+   color:white;
+ }
+
+label{
+    display: none;
+}
+
+#date {
+    width: 13%;
+}
+
+.rechercheItineraires {
+    margin-bottom: 2%;
+}
+
+.form-submit {
+    margin-left: 8%;
+}
+
+.rechercheSubmit {
+    color: #1C2224;
+    vertical-align: middle;
+    background: #C7C7C7;
+    width: 15%;
+}

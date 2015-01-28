@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HT2Evry TRANSILIEN</title>
+        <link rel="stylesheet" type="text/css" href="Accueil.css"/>
+        <link rel="stylesheet" type="text/css" href="Itineraires.css"/>
+    </head>
+  
+    <body>
+        <p><a href="Accueil.html">Retour</a></p>
+        <div class="searchItineraire" style="display: block;">
+            <h3> Itin&eacute;raires </h3></br>
+            <form action="searchHour" method="post">
+                <div class="rechercheItineraires form-depart">
+                    <label class="form-label">D&eacute;part</label>
+                    <input type="text" name="lieu-depart" id="depart" placeholder="D&eacute;part">
+                </div>
+                
+                <div class="rechercheItineraires form-arrivee">
+                    <label class="form-label">Arriv&eacute;e</label>
+                    <input type="text" name="lieu-arrivee" id="arrivee" placeholder="Arriv&eacute;e">
+                </div>
+                
+                <div class="rechercheItineraires form-date">
+                    
+                    <label class="form-label-date">Date</label>
+                    <input type="date" name="date" id="date" placeholder="Date">
+                </div>
+                
+                <div class="rechercheItineraires form-heure">
+                    <select class="sensItineraire" name="sens">
+                        <option value="1" selected="">D&eacute;part &agrave;</option>
+                        <option value="-1">Arriv&eacute;e &agrave;</option>
+                    </select>
+                    
+                    <select class="hours" name="select-hour">
+                        <option value="00">00</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05" selected="">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                    <span>:</span>
+                    <select class="minutes" name="select-minutes">
+                        <option value="00" selected="">00</option>
+                        <option value="05">05</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                        <option value="35">35</option>
+                        <option value="40">40</option>
+                        <option value="45">45</option>
+                        <option value="50">50</option>
+                        <option value="55">55</option>
+                     </select>
+                </div>
+                
+                <div class="rechercheItineraires form-submit">
+                    <input class="rechercheSubmit" type="submit" value="Rechercher"/>
+                </div>
+                
+           </form> 
+        </div>
+    </body>    

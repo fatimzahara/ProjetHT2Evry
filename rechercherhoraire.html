@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8" />
+		<title>Horaire en temps réel</title>
+		<link rel="stylesheet" type="text/css" href="rechercherhoraire.css"/>
+  </head>
+  
+  <body>
+         <div class="content_text">
+         <h1 class="horaire">Horaires<br /><span class="ht2evrycom-colors-automatic">en temps réel</span></h1>
+		
+		 <hr class="clear border" />
+  
+  
+    <form id="ht2evrycom-itineraries" action="/fr/itineraire" method="post">
+      
+        <div class="infos-trafic-title">
+          <img src="train.jpg" alt="" />
+          Rechercher <span class="ht2evrycom-colors-automatic">un train </span>        
+		</div>
+        <p class="field-required">* Champs obligatoires</p>
+        <div class="select-date">
+          <label for="subhome-date">Date de départ de votre train* </label>
+         <input type="date" name="subhome-date" id="date">
+          <label for="subhome-heure">À partir de</label>
+          <select id="subhome-heure" name="heure">
+                                      <option value="0000">00 h 00</option>
+                                                  <option value="0100">01 h 00</option>
+                                                  <option value="0200">02 h 00</option>
+                                                  <option value="0300">03 h 00</option>
+                                                  <option value="0400">04 h 00</option>
+                                                  <option value="0500">05 h 00</option>
+                                                  <option value="0600" selected="selected">06 h 00</option>
+                                                  <option value="0700">07 h 00</option>
+                                                  <option value="0800">08 h 00</option>
+                                                  <option value="0900">09 h 00</option>
+                                                  <option value="1000">10 h 00</option>
+                                                  <option value="1100">11 h 00</option>
+                                                  <option value="1200">12 h 00</option>
+                                                  <option value="1300">13 h 00</option>
+                                                  <option value="1400">14 h 00</option>
+                                                  <option value="1500">15 h 00</option>
+                                                  <option value="1600">16 h 00</option>
+                                                  <option value="1700">17 h 00</option>
+                                                  <option value="1800">18 h 00</option>
+                                                  <option value="1900">19 h 00</option>
+                                                  <option value="2000">20 h 00</option>
+                                                  <option value="2100">21 h 00</option>
+                                                  <option value="2200">22 h 00</option>
+                                                  <option value="2300">23 h 00</option>
+                                  </select>
+        </div><br >
+		
+		<div class="gare">
+          
+            <label for="gareOrigine">Gare de départ*</label>
+			<select id="typegare" name="type_gare">
+                                      <option value="eeee">Evry Courcouronnes</option>
+                                      <option value="eees">Evry Val de Seine</option>
+			</select> 
+            
+  
+            <label for="subhome-gareDestination">Gare d'arrivée*</label>
+            <input type="text" id="gareDestination" class="gare-autocomplete" name="gareDestination" value="" />
+            
+        </div>
+		<div class="bouton_rechercher">
+		<!--<button type="button">RECHERCHER</button>-->
+		<p style="text-align: center;"><input type="button" value="RECHERCHER" ></p>
+		</div>
+		
+		</div>
+		
+		
+	 </form>	
+  </body>
+ </html>
