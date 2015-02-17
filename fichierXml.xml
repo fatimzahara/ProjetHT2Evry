@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passages gare="87681387">
+<train><date mode="R">17/02/2015 20:44</date>
+<num>126746</num>
+<miss>VUPE</miss>
+<term>87276220</term>
+</train>
+<train><date mode="R">17/02/2015 20:50</date>
+<num>150508</num>
+<miss>DOPA</miss>
+<term>87686006</term>
+</train>
+<train><date mode="R">17/02/2015 20:52</date>
+<num>155519</num>
+<miss>RUPE</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 21:04</date>
+<num>154531</num>
+<miss>BUPE</miss>
+<term>87684415</term>
+</train>
+<train><date mode="R">17/02/2015 21:17</date>
+<num>150562</num>
+<miss>DOPA</miss>
+<term>87686006</term>
+</train>
+<train><date mode="R">17/02/2015 21:26</date>
+<num>155521</num>
+<miss>RUPE</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 21:31</date>
+<num>155523</num>
+<miss>RUPE</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 21:46</date>
+<num>155423</num>
+<miss>RUPE</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 21:47</date>
+<num>150564</num>
+<miss>DOPA</miss>
+<term>87686006</term>
+</train>
+<train><date mode="R">17/02/2015 22:01</date>
+<num>154749</num>
+<miss>BUPE</miss>
+<term>87684415</term>
+</train>
+<train><date mode="R">17/02/2015 22:11</date>
+<num>155355</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 22:17</date>
+<num>150566</num>
+<miss>DOPA</miss>
+<term>87686006</term>
+</train>
+<train><date mode="R">17/02/2015 22:34</date>
+<num>155357</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 22:47</date>
+<num>150568</num>
+<miss>DOPA</miss>
+<term>87686006</term>
+</train>
+<train><date mode="R">17/02/2015 23:04</date>
+<num>155359</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 23:34</date>
+<num>155361</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">17/02/2015 23:47</date>
+<num>150570</num>
+<miss>DOPA</miss>
+<term>87686006</term>
+</train>
+<train><date mode="R">18/02/2015 00:04</date>
+<num>155363</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">18/02/2015 00:34</date>
+<num>155365</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">18/02/2015 01:04</date>
+<num>155367</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+<train><date mode="R">18/02/2015 01:41</date>
+<num>155369</num>
+<miss>ROPO</miss>
+<term>87681007</term>
+</train>
+</passages>

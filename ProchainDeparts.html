@@ -21,8 +21,9 @@
       
       <label for="e2">BON VOYAGE sur la Ligne&nbsp;:</label>
       <a href="#"><img src="rer.jpg" alt="" /></h4></a>
-    
-      <table >
+      
+ <xml id="fichierxml" src="fichierXml.xml"></xml>
+      <table datasrc="#fichierxml">
         <caption>Fiche horaire avec la liste des arr&ecirc;ts et des gares d&eacute;sservies par le RER D </caption>
 	<tr id="entete">
 	   <th>D&eacute;part&nbsp; </th>
@@ -31,34 +32,12 @@
 	   <th>Voie&nbsp;</th>
 	</tr>
 	<tr>
-	  <td> 10h55&nbsp;</td>
-	  <td>DOPA&nbsp;</td>
+	  <td><span datafld="date"></span></td>
+	  <td><span datafld="miss"></span></td>
 	  <td>PARIS GARE DE LYON&nbsp;</td>
 	  <td>1&nbsp;</td>
 	</tr>
- 	<tr>
-	  <td> 11h00&nbsp;</td>
-	  <td>ROPO&nbsp;</td>
-	  <td>CORBEIL ESSONNES&nbsp;</td>
-	  <td>2&nbsp;</td>
-	</tr>
-	<tr>
-	  <td> 12h05&nbsp;</td>
-	  <td>ZUPE&nbsp;</td>
-	  <td>MELUN&nbsp;</td>
-	  <td>3&nbsp;</td>
-	</tr>
-	<tr>
-	  <td> 18h50&nbsp;</td>
-	  <td>RUPE&nbsp;</td>
-	  <td>MALESHERBES&nbsp;</td>
-	  <td>4&nbsp;</td>
-	</tr>
-	<tr>
-	  <td> 19h00&nbsp;</td>
-	  <td>VUPE&nbsp;</td>
-	  <td>VILLIERS LE BEL GONESSE ARNOUVILLE&nbsp;</td>
-	  <td>5&nbsp;</td>
+ 	
 	</tr>
     </table>
    </form>
