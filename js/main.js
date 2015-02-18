@@ -95,6 +95,9 @@ var listeGare = {
 87684415:'MALESHERBES'
 };
 
+/*
+ *Fonction de récupération des prochains trains avec choix de la gare de départ
+*/
 function getProchainsTrains(elm){
   var gareId = $(elm).val();
     $("#liste-horaires tbody").empty();
@@ -118,7 +121,9 @@ function getProchainsTrains(elm){
     });
 }
 
-
+/*
+ *Fonction de recherche itinéraire sur le rer D en choisissant gare de départ et gare d'arrivée
+ */
 function getItineraire(){
   $("#message").html("");
   var gareDep = $("#gareDep").val();
