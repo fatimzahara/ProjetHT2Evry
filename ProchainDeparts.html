@@ -2,45 +2,53 @@
 <html>
  <head>
   <meta charset="utf-8" />
+  <title> HT2Evry Transilien-Mon RER D </title>
+  <link rel="stylesheet" type="text/css" href="css/Leshoraires.css"/>
+
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/main.js"></script>
  </head>
- <title> HT2Evry Transilien-Mon RER D </title>
- <link rel="stylesheet" type="text/css" href="Leshoraires.css"/>
 
  <body>
   <div id="station">
-   <p><a href="Accueil.html">Retour</a></p>
+   <p>
+    <a href="Accueil.html"> <img src="back2.png" alt=""/></a>
+   </p>
    
    <form id="chearch" method="GET" action="#">
-    
-      <h4><label for="e2">D&eacute;part&nbsp;:</label>
-      <select id="typegare" name="type_gare" >
-          <option value="slug" selected="selected">S&eacute;lectionnez une gare...</option>
-          <option value="evcc">Evry Courcouronnes</option>
-          <option value="evss">Evry Val de Seine</option>
-      </select>
-      
-      <label for="e2">BON VOYAGE sur la Ligne&nbsp;:</label>
-      <a href="#"><img src="rer.jpg" alt="" /></h4></a>
-      
- <xml id="fichierxml" src="fichierXml.xml"></xml>
-      <table datasrc="#fichierxml">
-        <caption>Fiche horaire avec la liste des arr&ecirc;ts et des gares d&eacute;sservies par le RER D </caption>
-	<tr id="entete">
-	   <th>D&eacute;part&nbsp; </th>
-	   <th>Train&nbsp;</th>
-	   <th>Destination&nbsp;</th>
-	   <th>Voie&nbsp;</th>
-	</tr>
-	<tr>
-	  <td><span datafld="date"></span></td>
-	  <td><span datafld="miss"></span></td>
-	  <td>PARIS GARE DE LYON&nbsp;</td>
-	  <td>1&nbsp;</td>
-	</tr>
- 	
-	</tr>
-    </table>
+     <h4>
+      <label>BON VOYAGE sur la Ligne&nbsp;:</label>
+      <img src="rer.jpg" alt="" />
+     </h4>
+     
+     <label>D&eacute;part&nbsp;:</label>
+     <select id="typegare" name="type_gare" onchange="getProchainsTrains(this)">
+       <option selected="selected">S&eacute;lectionnez une gare...</option>
+       <option value="87681387">Evry Courcouronnes</option>
+       <option value="87681361">Evry Val de Seine</option>
+       <option value="87681312"> Viry Chatillon</option>
+       <option value="87545244">Juvisy</option>
+       <option value="87681007">Corbeil Essonnes</option>
+       <option value="87684241">Ferrières Fontenay</option>
+     </select>
    </form>
-  </div>
+ 
+<div>
+ <span>Fiche horaire des prochains trains du RER D </span>
+  <table id="liste-horaires">
+   <thead>
+    <tr id="entete">
+     <!-- <th>Numéro</th> -->
+      <th>D&eacute;part&nbsp; </th>
+      <th>Train&nbsp;</th>
+      <th>Destination&nbsp;</th>
+    </tr>
+   </thead>
+   <tbody>
+    
+   </tbody>
+  </table>
+ </div> 
+</div>
  </body>
 </html>

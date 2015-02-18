@@ -1,6 +1,6 @@
 body{
-  /*  background-image:url("garevry.jpg");*/
-    background: #FFFFFF;
+    background-image:url("garevry.jpg");
+   /* background: #FFFFFF;*/
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 1000px;

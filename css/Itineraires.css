@@ -25,3 +25,25 @@ label{
     background: #C7C7C7;
     width: 15%;
 }
+
+ table
+{
+   border-collapse: collapse; 
+
+}
+
+table thead th
+{
+   text-transform: lowercase;
+   font-weight: bold;
+   background-color: dimgray;
+   color:white;
+}
+
+
+td,th
+{
+   border-bottom: 1px solid lightgray;
+   font-family: "Times New Roman", Times, serif;
+   padding: 1px 10px;
+}
